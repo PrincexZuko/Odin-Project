@@ -1,0 +1,27 @@
+header,section,nav,main,footer,aside{
+    display: block;
+}
+
+body{
+    background-image: url("");
+    background-size: 1580px 1100px; 
+    height: 50%;
+    margin:0;
+}
+
+#wrap{
+    width: 95%;
+    margin:0px auto;
+   
+}
+
+h1{
+    font-family:'Norse Bold';
+    color:black;
+    text-align: center;
+}
+
+nav .ul{
+ text-align: center;
+ color: black;
+}
