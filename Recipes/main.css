@@ -87,11 +87,7 @@ img{
     width: 1100px;
     height: 800px;
 }
-.location{
-    background-image: url(images/sunset.jpg);
-    background-repeat: no-repeat;
-    width: 1000px;
-}
+
 .location img{
     width: 200px;
     height: 100px;
@@ -123,3 +119,4 @@ aside img{
 h2{
     color: white;
 }
+
