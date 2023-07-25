@@ -120,3 +120,27 @@ h2{
     color: white;
 }
 
+
+.column {
+    float: left;
+    width: 43.33%;
+    padding: 10px;
+    
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+h2{
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+  h3{
+    color:white;
+    font-family: 'Rock Salt', cursive;
+    font-size: 13px;
+  }
