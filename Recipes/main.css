@@ -15,10 +15,14 @@ header h1{
     color: white;
     font-family: 'Rock Salt', cursive;
     text-align: center;
+   
     font-size: 46px;
     height: 60px;
 }
-
+h1{
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
 #rightpic{
     float: right;
     height: 100px;
@@ -27,6 +31,7 @@ header h1{
 header {
     margin: 0;
     padding: 0;
+    top: 100px;
 }
 
 
@@ -87,6 +92,7 @@ header {
 }
 p{
     color: white;
+    
 }
 
 .hours h1{
@@ -97,8 +103,11 @@ p{
     color: white;
 }
 aside{
-    float: right;
-    width: 20%;
+    
+    position: absolute;
+    top:300px;
+    right:10px;
+    width: 300px;
 }
 aside img{
     height: 180px;
