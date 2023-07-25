@@ -69,9 +69,25 @@ header {
 .topnav hr {
     border-color: yellow;
     margin: 0;
-    position: absolute; /* Add absolute positioning to the HR */
-    width: 100%; /* Make the HR span the full width of the topnav */
-    top: 45%; /* Position the HR right under the topnav */
+    position: absolute; 
+    width: 100%; 
+    top: 45%; 
+}
+
+.jungle{
+    background-image: url(images/jungle.jpg);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 500px;
+}
+.location{
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    width: 1000px;
+}
+.location img{
+    width: 200px;
+    height: 100px;
 }
 p{
     color: white;
