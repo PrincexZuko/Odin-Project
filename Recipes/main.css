@@ -1,3 +1,98 @@
 header,section,nav,main,footer,aside{
     display: block;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-color: black;
+    margin: 3%;
+}
+
+
+header h1{
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 46px;
+    height: 60px;
+}
+
+#leftpic{
+    
+}
+
+#rightpic{
+    float: right;
+    height: 100px;
+    width: 200px;
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+
+
+.topnav {
+    background-color:black; 
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    color: white; 
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    text-decoration: none;
+    position: relative; 
+}
+
+.topnav a::before {
+    content: "★"; 
+    color: gold; 
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+}
+
+
+.topnav .split {
+    float: right;
+}
+
+
+.topnav hr {
+    border-color: yellow;
+    margin: 0;
+    position: absolute; /* Add absolute positioning to the HR */
+    width: 100%; /* Make the HR span the full width of the topnav */
+    top: 45%; /* Position the HR right under the topnav */
+}
+p{
+    color: white;
+}
+
+.hours h1{
+    color: white;
+}
+
+.hours ul{
+    color: white;
+}
+aside{
+    float: right;
+    width: 20%;
+}
+aside img{
+    height: 180px;
+    width: 250px;
+    border-radius: 8px;
+}
+h2{
+    color: white;
 }
